@@ -1,0 +1,27 @@
+{
+  "name": "@bipce/hrnet_modal_package",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "modal",
+    "openclassroom",
+    "OC",
+    "hrnet"
+  ],
+  "author": "bipce",
+  "license": "MIT",
+  "description": "This is the package for the modal for the last project (HrNet), of the react course on OpenClassRooms",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
