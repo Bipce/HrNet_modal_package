@@ -1,5 +1,4 @@
 export type ModalProps = {
-  isOpen: boolean,
   sectionClassName?: string,
   pClassName?: string,
   btnClassName?: string,
